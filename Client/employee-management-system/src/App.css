@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  /* Remove default body margin */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.main {
+  max-width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 15px auto;
+
+  display: block;
+
+
+}
+
+
+
+/* Style for the form container */
+form {
+  display: grid;
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Style for form labels */
+label {
+  font-weight: bold;
+}
+
+/* Style for form input fields */
+input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Style for the submit button */
+
+
+/* Hover effect for the submit button */
+button:hover {
+  background-color: #45a049;
+}
+
+/* Signup.css */
+
+.radio-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.radio-option {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.radio-option input {
+  margin-right: 5px;
+}
+
+/* Dashboard Css */
+
+/* Dashboard Styles */
+.dash {
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+}
+
+.containers h2 {
+  text-align: center;
+  margin-bottom: 200px;
+}
+
+.containers {
+  height: 100vh;
+  width: 100vw;
+}
+
+
+
+
+/* Dashboard.css */
+
+.container {
+  padding: 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.depart {
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.data {
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+
+  .col-md-5.depart,
+  .col-md-7.data {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+.container {
+
+  width: 100vw;
+}
+
+.container h2 {
+  text-align: center;
+}
